@@ -1,0 +1,6 @@
+/* importing my stylesheet */
+@import url("https://ui-cookbook.netlify.app/stylesheets/index.css");
+@import url("../stylesheets/home.css");
+@import url("../stylesheets/question.css");
+@import url("../stylesheets/result.css");
+@import url("../stylesheets/rules.css");
