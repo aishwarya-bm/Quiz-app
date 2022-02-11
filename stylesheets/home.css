@@ -1,4 +1,4 @@
-.cat-container {
+.category-container {
     margin: 2rem 5rem;
     gap: 2rem;
     display: grid;
@@ -6,10 +6,10 @@
 }
 
 @media screen and (max-width: 750px) {
-    .cat-container {
+    .category-container {
         margin: 2rem;
     }
-    .cat-item {
+    .category-item {
         justify-self: center;
     }
 }
