@@ -1,0 +1,15 @@
+.category-container {
+    margin: 2rem 5rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+@media screen and (max-width: 750px) {
+    .category-container {
+        margin: 2rem;
+    }
+    .category-item {
+        justify-self: center;
+    }
+}
