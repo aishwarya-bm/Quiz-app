@@ -1,0 +1,40 @@
+@import url("./stylesheets/main.css");
+
+body{
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.page-heading {
+    color: var(--contrast-light);
+}
+
+.nav{
+    width: 100%;
+    color: var(--contrast-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-left: 5rem;
+}
+
+.right-nav {
+    padding-right: 2rem;
+    gap: 2rem;
+    font-weight: 700;
+}
+.card {
+    color: var(--black-color);
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-header:hover {
+    background-color: var(--secondary-light);
+}
