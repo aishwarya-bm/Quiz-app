@@ -3,6 +3,8 @@
 body{
     background-color: var(--black-color);
     color: var(--white-color);
+    height: 100%;
+    width: 100%;
 }
 
 .page-heading {
