@@ -1,0 +1,21 @@
+.option-correct {
+    background-color: var(--success-txt);
+    border: 0;
+}
+
+.option-wrong {
+    background-color: var(--error-txt);
+    border: 0;
+}
+
+.btn-playmore {
+    width: fit-content;
+    align-self: center;
+    font-size: 1.25rem;
+    background-color: var(--contrast-color);
+    color: var(--black-color);
+}
+
+.btn-playmore:hover {
+    background-color: var(--contrast-light);
+}
