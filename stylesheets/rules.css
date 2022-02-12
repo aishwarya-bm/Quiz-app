@@ -1,0 +1,14 @@
+.rules-container{
+    background-color: var(--helper-color);
+    padding: 1rem;
+    margin: 1rem auto;
+    width: clamp(300px, 70vw, 70%);
+}
+
+.rules-list{
+    padding-left: 2rem;
+}
+
+.rules-btn{
+    justify-content: space-evenly;
+}

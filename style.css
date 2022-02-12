@@ -3,6 +3,8 @@
 body{
     background-color: var(--black-color);
     color: var(--white-color);
+    height: 100%;
+    width: 100%;
 }
 
 .page-heading {
@@ -27,14 +29,4 @@ body{
     gap: 2rem;
     font-weight: 700;
 }
-.card {
-    color: var(--black-color);
-}
 
-.card:hover {
-    cursor: pointer;
-}
-
-.card-header:hover {
-    background-color: var(--secondary-light);
-}
