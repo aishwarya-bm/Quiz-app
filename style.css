@@ -7,6 +7,27 @@ body{
     width: 100%;
 }
 
+.landing-container {
+    height: 100vh;
+    color: var(--white-color);
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.intro-container {
+    padding: 1rem 1rem 3rem 1rem;
+    background-color: var(--doc-bg);
+    color: var(--contrast-color);
+    border-radius: 1rem;
+}
+
+.btn-landingpage {
+    color: var(--white-color);
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
 .page-heading {
     color: var(--contrast-light);
 }
@@ -29,4 +50,3 @@ body{
     gap: 2rem;
     font-weight: 700;
 }
-
