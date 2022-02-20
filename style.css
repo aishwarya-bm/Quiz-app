@@ -37,6 +37,7 @@ body{
     color: var(--contrast-color);
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid;
 }
 
 .left-nav {
@@ -49,4 +50,16 @@ body{
     padding-right: 2rem;
     gap: 2rem;
     font-weight: 700;
+}
+
+@media only screen and (max-width:550px) {
+    .nav{
+        flex-direction: column;
+    }
+    .left-nav{
+        padding-left: 0;
+    }
+    .right-nav{
+        padding-right: 0;
+    }
 }
